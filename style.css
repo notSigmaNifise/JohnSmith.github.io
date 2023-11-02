@@ -27,11 +27,16 @@
 }
 
 @media only screen and (max-width: 425px) {
-    .top_part_text{
+    .top_part .top_part_text{
         margin-top: 25px;
+        width: 95%;
+    }
+    .top_part .top_part_text>img{
+        width: 80%;
     }
     .container .heading>h3{display: none;}
     .container img{display: none;}
+    
     
 }
 main{
@@ -42,7 +47,7 @@ main{
 .middle_part_txt{
     margin-top: 5%;
     text-align: center;
-    width: 50%;
+    width: 80%;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
